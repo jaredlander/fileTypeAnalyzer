@@ -1,0 +1,28 @@
+Package: fileTypeAnalyzer
+Title: Analyzing Files by Their Type
+Version: 0.1.0
+Authors@R: 
+    person("Jared", "Lander", email = "packages@jaredlander.com", role = c("aut", "cre"))
+Description: The 'fileTypeAnalyzer' package provides tools for analyzing files 
+    in a directory by their type. It calculates metrics such as the average number 
+    of lines for each file type and can create plots of these metrics. 
+    Currently supported file types for analysis include but are not limited to 
+    'txt', 'csv', 'R', etc. Custom file types can also be specified by the user.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    dplyr,
+    purrr,
+    fs,
+    ggplot2,
+    echarts4r,
+    lattice,
+    magrittr,
+    tibble
+Suggests:
+    testthat,
+    vdiffr
+RoxygenNote: 7.2.3
