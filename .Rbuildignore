@@ -2,3 +2,5 @@
 ^renv\.lock$
 ^fileTypeAnalyzer\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+^\.github$
